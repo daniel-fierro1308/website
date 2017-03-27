@@ -1,0 +1,49 @@
+extends layout.jade
+block contenido
+	section.slider
+		#carousel-1.carousel.slide(data-ride='carousel')
+			.carousel-inner(role='listbox')		
+				.item.active
+					img.img-responsive(src='/img/web-2.jpg', alt='')
+				.item
+						img.img-responsive(src='/img/web-3.jpg', alt='')
+				.item
+					img.img-responsive(src='/img/web-4.jpg', alt='')
+					
+			// Controles
+			a.left.carousel-control(href='#carousel-1', role='button', data-slide='prev')
+				span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+				span.sr-only Anterior
+			a.right.carousel-control(href='#carousel-1', role='button', data-slide='next')
+				span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+				span.sr-only Siguiente
+
+	section.areas
+		h2  Areas of focus 
+		p
+			| We offer different services which make our customers feel satisfied with their product
+			br
+			| and with the quality of this.
+	.container
+		.row
+			.col-xs-6.col-md-4
+				a(href='servicios.jade#data')
+					img(src='/img/database.png', alt='' class='images')
+			.col-xs-6.col-md-4
+				a(href='servicios.jade#web')
+					img(src='/img/web.png', alt='' class='images')
+			.col-xs-6.col-md-4
+				a(href='servicios.jade#mobile')
+					img(src='/img/mobile.png', alt='' class='images')
+		.row
+			.col-xs-6.col-md-4
+				a(href='servicios.jade#software')
+					img(src='/img/methodologies.png', alt='' class='images')
+			.col-xs-6.col-md-4
+				a(href='servicios.jade#services')
+					img(src='/img/responsive.png', alt='' class='images')
+			.col-xs-6.col-md-4
+				a(href='servicios.jade#software')
+					img(src='/img/software.png', alt='' class='images')
+
+		

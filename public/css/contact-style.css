@@ -1,0 +1,115 @@
+.banner {
+	margin: .5% 0 0 0;
+	width: 100%;
+}
+
+.banner img {
+	animation-delay: .3s;
+	height: 500px;
+	width: 100%;
+}
+
+#mail {
+	animation-delay: 1s;
+	color: #fff;
+	font: bold 50px 'Oswald', sans-serif;
+	margin: 0 0 0 5%;
+}
+
+#contact-us {
+	animation-delay: .4s;
+	color: #fff;
+	font: bold 50px 'Oswald', sans-serif;
+	margin: -13% 0 0 5%;
+}
+
+.formu {
+	animation-delay: 2s;
+background-color: #212121;
+margin: 3% auto .3% auto;
+ width: 100%;
+
+}
+
+form {
+border-radius: 7px;
+box-sizing: border-box;
+margin: 0 auto 0 auto;
+padding: 10px 20px;
+width: 600px;
+}
+
+form h2 {
+color: #fff;
+font: 30px 'Oswald', sans-serif;
+margin: 0 0 20px 0;
+text-align: center;
+}
+
+label {
+color: #fff;
+ font: 19px 'Nunito', sans-serif;
+  
+}
+
+input, textarea {
+	border: none;
+	border-radius: 7px;
+	box-sizing: border-box;
+	font: 17px 'Nunito', sans-serif;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 7px;
+	width: 100%;
+}
+
+input:hover,textarea:hover {
+border: 2px solid #000; 	
+}
+
+
+textarea {
+max-height: 200px;
+min-height: 100px;
+max-width: 100%;
+}
+
+#button-send {
+	color:#fff;
+	font-weight: bold;
+	height: 50px;
+	padding: 10px;
+}
+
+#button-send:hover {
+   background: #0878A2;
+   color:000;
+   cursor: pointer;
+   transition-duration: 1s;
+
+  }
+
+@media only screen and (max-width: 768px) {
+
+.banner img {
+	height: 200px;
+	width: 100%;
+}
+
+#mail {
+	color: #fff;
+	font: bold 20px 'Oswald', sans-serif;
+	margin: 0 0 0 5%;
+}
+
+#contact-us {
+	color: #fff;
+	font: bold 20px 'Oswald', sans-serif;
+	margin: -16% 0 0 5%;
+}
+
+  form {
+  	width: 90%;
+  }
+
+  }

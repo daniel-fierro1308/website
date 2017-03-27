@@ -1,0 +1,223 @@
+
+body {
+	background-color: #FAFAFC;
+}
+
+.titles {
+color: #fff;
+font: 40px 'Oswald', sans-serif;
+letter-spacing: 2px;
+text-align: center;
+margin: -1% 0 0 0;
+}
+
+/* banner styles*/
+.banner {
+height: 100%;
+width: 100%;
+
+}
+
+.banner p {
+color: #fff;
+font: 35px 'Open Sans', sans-serif;
+text-align: center;
+margin: 0 0 2% 0;
+}
+
+/* web development styles */
+
+.web-dev {
+	background-color: #1F2638;
+	margin:-1.4% 0 .1% 0;
+}
+
+.web-dev p {
+color: #fff;
+float: right;
+font: 30px 'Open Sans', sans-serif;
+margin: 3% 10% 0 0;
+text-align: center;
+width: 50%;
+}
+
+.web-dev img {
+	height: 250px;
+	margin: -1% 0 4% 8%;
+	width: 370px;	
+}
+
+
+/* mobile app development styles*/
+
+.mobile-apps {
+	background-color: #2D6F7D;
+	margin:-1.3% 0 .1% 0;
+}
+
+.mobile-apps p {
+color: #fff;
+float: left;
+font: 30px 'Open Sans', sans-serif;
+margin: 5% 0 0 8%;
+text-align: center;
+width: 50%;
+}
+
+.mobile-apps img {
+	height: 270px;
+	margin: 0 5% 2% 8%;
+	width: 370px;
+}
+
+/* software development  */
+
+.software-dev {
+background-color: #413F3C;
+margin:-1.4% 0 1% 0;
+}
+
+.software-dev p {
+color: #fff;
+float: right;
+font: 30px 'Open Sans', sans-serif;
+margin: 3% 9% 0 3%;
+text-align: center;
+width: 45%;
+}
+
+.software-dev img {
+height: 270px;
+margin: 0 5% 2% 7%;
+width: 370px;
+}
+
+
+/* Database magnament */
+
+.database {
+
+	background-color: #0F5883;
+	margin:-1.4% 0 0.1% 0;
+}
+
+.database p {
+color: #fff;
+float: left;
+font: 30px 'Open Sans', sans-serif;
+margin: 2% 5% 2% 3%;
+text-align: center;
+width: 45%;
+}
+
+
+.database img {
+height: 270px;
+margin: 0 7% 2% 9%;
+width: 370px;
+}
+
+
+
+/*Media query*/
+
+@media only screen and (max-width: 768px) {
+
+.titles {
+
+color: #fff;
+font: 30px 'Oswald', sans-serif;
+letter-spacing: 2px;
+text-align: center;
+}
+
+
+/* Banner */
+.banner {
+margin: -5.7% 0 0 0;
+text-align: center;
+width: 100%;
+}
+
+.banner p {
+font: 20px 'Open Sans', sans-serif;
+}
+
+
+/* web-dev*/
+.web-dev {
+	margin: -5.4% 0 0 0;
+}
+
+.web-dev p {
+float: none;
+font: 20px 'Open Sans', sans-serif;
+margin: 0 10% 5% 5%;
+width: 90%;
+}
+
+.web-dev img {
+	height: 150px;
+	margin: -5% 4% 4% 20%;
+	width: 250px;	
+}
+
+/*mobile apps*/
+
+.mobile-apps {
+	margin:-5.4% 0 0 0;
+}
+
+.mobile-apps p {
+float: none;
+font: 20px 'Open Sans', sans-serif;
+margin: 0 10% 5% 5%;
+width: 90%;
+}
+
+.mobile-apps img {
+	height: 170px;
+	margin: -5% 4% 2% 20%;
+	width: 250px;
+}
+
+/*software-dev  */
+.software-dev {
+margin: -5.4% 0 0 0;
+}
+
+.software-dev p {
+float: none;
+font: 20px 'Open Sans', sans-serif;
+margin: 0 10% 5% 5%;
+width: 90%;
+}
+
+.software-dev img {
+height: 170px;
+margin: 0 4% 2% 18%;
+width: 250px;
+}
+
+/* database magnament*/
+
+.database {
+
+	margin:-5.4% 0 .4% 0;
+}
+
+.database p {
+float: none;
+font: 20px 'Open Sans', sans-serif;
+margin: 0 10% 5% 5%;
+width: 90%;
+}
+
+
+.database img {
+height: 140px;
+margin: 0 6% 3% 20%;
+width: 240px;
+}
+
+}

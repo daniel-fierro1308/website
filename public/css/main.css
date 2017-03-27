@@ -1,0 +1,91 @@
+::-webkit-scrollbar {
+      width: 10px;
+}
+
+::-webkit-scrollbar-track {
+      background-color: white;
+} 
+
+::-webkit-scrollbar-thumb {
+      background-color: #ADABA2;
+} 
+
+::-webkit-scrollbar-corner {
+      background-color: black;
+}
+.go-up {
+	background: rgba(0,0,0,.8);
+	border-radius: 50px;
+	bottom: 20px;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	font-size: 20px;
+	padding: 20px;
+	position: fixed;
+	right: 20px;
+	z-index: 1;
+}
+/* footer styles */
+.foot {
+background: #30647D;
+color: #fff;
+text-align: center;
+
+}
+
+.foot h2 {
+	font: 30px 'Oswald', sans-serif;
+	margin: 0;
+}
+
+
+.foot ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.foot li {
+	flex-grow: 1;
+	text-align: center;
+}
+
+
+.foot li a {
+	border-right: 1px solid #fff;
+	color: #fff;
+	display: block;
+    font-size: 25px;
+	margin: 2% 0 2% 0;	
+	text-decoration: none;
+
+}
+
+.foot li a:hover {
+	color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+	
+.foot {
+background: #30647D;
+color: #fff;
+margin: 3% 0 0 0;
+padding: 1%;
+text-align: center;
+}
+
+.foot h2 {
+    
+	font: 23px 'Oswald', sans-serif;
+	margin: 0;
+}
+
+.foot li a {
+    font-size: 20px;
+	
+}
+
+}

@@ -1,0 +1,25 @@
+extends layout.jade
+block contenido
+	section.banner
+		img(src='img/contact.jpg', alt='contact image')
+		h2#contact-us.animated.fadeInLeft Contact Us
+		h2#mail.animated.fadeInLeft jose.fierro@globant.com
+	section.formu.animated.fadeIn
+		form
+			h2 Contact Form
+			.form-group
+				label(for='nombre') Name
+				input#nombre.form-control(type='text', placeholder='Nombre')
+			.form-group
+				label(for='nombre') Surname
+				input#nombre.form-control(type='text', placeholder='Nombre')
+			.form-group
+				label(for='nombre') Email
+				input#nombre.form-control(type='text', placeholder='Nombre')
+			.form-group
+				label(for='nombre') Message Subject 
+				input#nombre.form-control(type='text', placeholder='Nombre')
+			.form-group
+				label(for='mensaje') Mensaje:
+				textarea#mensaje.form-control(placeholder='Escribe tu mensaje')  
+			input#button-send.btn.btn-primary(type='button', value='SEND')

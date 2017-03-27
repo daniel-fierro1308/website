@@ -1,0 +1,67 @@
+doctype html
+html(lang="es")
+	head
+		title  Exercise of node.js
+		meta(charset="utf-8")
+		link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+		link(href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico" rel="stylesheet")
+		link(rel='stylesheet', type='text/css', href='/img/style.css')
+		link(href='https://fonts.googleapis.com/css?family=Nunito|Oswald|Open+Sans', rel='stylesheet')
+		link(rel='stylesheet', type='text/css', href='/css/index-style.css')
+		link(rel='stylesheet', type='text/css', href='/css/services-style.css')
+		link(rel='stylesheet', type='text/css', href='/css/contact-style.css')
+		link(rel='stylesheet', type='text/css', href='/css/animate.css')
+		link(rel='stylesheet', type='text/css', href='/css/main.css')
+		script(src='https://code.jquery.com/jquery-latest.js')
+		script(type='text/javascript', src='/js/up.js')
+		style.
+			body {
+			padding-top: 40px;
+			}
+	body
+		<span class="go-up icon-circle-up"></span>
+		.container
+			br
+			header
+				nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse
+					.container-fluid
+						.navbar-header
+							button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar-1')
+								span.sr-only Menu
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
+							a.navbar-brand(href='index.jade') Daniel Fierro
+						#navbar-1.collapse.navbar-collapse
+							ul.nav.navbar-nav.navbar-left
+								li
+									a(href='index.jade') INICIO
+								li
+									a(href='servicios.jade') SERVICIOS
+							ul.nav.navbar-nav.navbar-right
+								li
+									a(href='login.jade') LOGIN
+								li
+									a(href='registro.jade') REGISTRO
+								li
+									a(href='contacto.jade') CONTACTO
+		block contenido
+
+
+		footer.foot
+				h2 Contact Us
+				ul
+					li
+						a(href='https://www.facebook.com/daniel.fierro.torres', target='blank')
+							span.icon-facebook2
+					li
+						a(href='https://twitter.com/fierro1308', target='blank')
+							span.icon-twitter
+					li
+						a(href='https://www.instagram.com/daniel_fierro13/?hl=en', target='blank')
+							span.icon-instagram
+					li
+						a(href='https://plus.google.com/u/0/117138574359725307408', target='blank')
+							span.icon-odgoogle-plus2
+// Latest compiled and minified JavaScript
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
